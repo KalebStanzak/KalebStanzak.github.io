@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+    font-family: Helvetica, sans-serif, Arial,;
+    font-style: normal;
+    background-color: rgb(32, 29, 33);
+    color: rgba(255, 243, 228, 1);
+}
+a:link{
+    color: rgb(225, 198, 183);
+}
+a:visited{
+    color: rgb(196, 167, 161)
+}
+p.one{
+    margin-left: 10px;
+    font-size: larger;
+}
+p.two{
+    margin-left: 10px;
+    font-size: large;
+}
+h1{
+    margin-left: 10px;
+}
+h4{
+    margin-left: 10px;
+}
+

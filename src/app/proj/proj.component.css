@@ -1,0 +1,59 @@
+div.projectbox{
+    background-color: rgb(73, 49, 84);
+    display: grid;
+    margin: 10px;
+    height: 200px;
+    width: 75%;
+    gap: 5px;
+    text-align: center;
+    object-fit: contain;
+    grid-template-rows: 15% 40%;
+    grid-template-columns: 15%;
+    overflow: hidden;
+    grid-template-areas: 
+    "photo name name name name"
+    "photo desc desc desc desc"
+    "extra desc desc desc desc";
+}
+
+.projectbox > .image{
+    grid-area: photo;
+    background-color: rgb(85, 51, 99);
+    margin-top: 5px;
+    margin-left:5px;
+    height: 100%;
+}
+
+.image > img{
+   object-fit: contain;
+   max-height: 100%;
+   width: 100%;
+}
+
+.projectbox > .name{
+    grid-area: name;
+    background-color: rgb(95, 83, 117);
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.description{
+    grid-area: desc;
+    background-color: rgba(123, 105, 140, 1);
+    text-align: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-indent: 30px;
+    font-size: large;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.extra{
+    grid-area: extra;
+    background-color: rgb(95, 83, 117);
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    overflow-y: scroll;
+}

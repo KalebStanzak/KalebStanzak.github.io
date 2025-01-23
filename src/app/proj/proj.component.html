@@ -1,0 +1,20 @@
+<h1>Projects:</h1>
+
+<div *ngFor="let item of dataMap | keyvalue: pleaseDontSort" class="projectbox">
+    
+    <div class="image">
+        <!-- image -->
+        <img src="githubLogo.png" alt="project">
+    </div>
+    <div (click)='load()' class="name">
+        {{item.key}}
+    </div>
+    <div class="description">
+        {{item.value[1]}} <a href={{item.value[2]}} target="_blank">here.</a>
+    </div>
+    <div class="extra">
+        Last commit message:
+        {{item.value[0]}}
+    </div>
+</div>
+

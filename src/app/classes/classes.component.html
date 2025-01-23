@@ -1,0 +1,14 @@
+<h1>
+    Classes taken:
+</h1>
+<h4>A * indicates a class is currently being taken  </h4>
+
+<div *ngFor="let item of classMap | keyvalue: pleaseDontSort" class="holder">
+    <div class="className">
+        <b> {{item.key}}</b>
+    </div>
+    <div class="classDesc">
+        {{item.value}}
+    </div>
+</div>
+

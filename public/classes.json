@@ -1,0 +1,66 @@
+[
+    {
+        "name": "SWEN 101",
+        "description": "An introductory course into Software Engineering. Primarily taught usage of documentation softwares and methods and programs for team cooperation on larger projects."
+    },
+    {
+        "name": "Math 171",
+        "description": "First calculus course in a series, teaches limits and derivates"
+    },
+    {
+        "name": "GCIS 123",
+        "description": "First year programming course directed at Software Engineers, teaches basic programming skills within python"
+    },
+    {
+        "name":"COMM 253",
+        "description":"A buisness course that taught the basics of writing a variety of buisness documents effectively."
+    },
+    {
+        "name":"GCIS 124",
+        "description":"First year programming course, teaches basics of coding in Java and concepts within Object Oriented programming"
+    },
+    {
+        "name":"MATH 190",
+        "description":"Discrete math course focused on computing and logic, teaches the basics of logical operators, sets, set operators, and proofs in a mathematical context"
+    },
+    {
+        "name":"Math 172",
+        "description":"Second calculus course in a series, teaches integrals"
+    },
+    {
+        "name":"SWEN 250",
+        "description":"Software Engineering course that teaches basics of C, gcc, and valgrind. Introduced concepts such as pointers, memory management, and structs"
+    },
+    {
+        "name":"SWEN 261",
+        "description":"Project based Software Engineering course, worked alongside a team to develop a basic spring server and angular frontend."
+    },
+    {
+        "name":"MATH 241",
+        "description":"Linear algebra course, teaches vector math, matricies, eigenvalues, and eigenspaces"
+    },
+    {
+        "name":"MATH 173",
+        "description":"Final course in base calculus sequence, expands on integrals, polar coordinates, and series representations of functions"
+    },
+    {
+        "name":"CSEC 140",
+        "description":"Entry level course into cybersecurity, teaches the basics of hashing, encryption, and data security"
+    },
+    {
+        "name":"CSCI 243*",
+        "description":"Teaches the details of how programs execute, as well as the features given by operating systems. Goes further into detail about C programming"
+    },
+    {
+        "name":"STAT 205*",
+        "description":"A statistics course focused on modeling and analyzing data"
+    },
+    {
+        "name":"SWEN 262*",
+        "description":"A course focused on design principals within programming, as well as the architecture used when programming"
+    },
+    {
+        "name":"SWEN 344*",
+        "description":"Software engineering course focused on how backend and frontend systems are built."
+    }       
+]

@@ -1,0 +1,19 @@
+div.holder{
+    width:45%;
+    height:80px;
+    margin-left: 5px;
+    display: inline-block;
+    overflow: hidden;
+}
+div.className{
+    background-color: rgb(95, 83, 117);
+    text-indent: 5px;
+    height: 30%;
+}
+div.classDesc{
+    background-color: rgba(123, 105, 140, 1);
+    padding-left: 5px;
+    padding-right: 5px;
+    text-size-adjust: large;   
+    height: 70%;
+}
