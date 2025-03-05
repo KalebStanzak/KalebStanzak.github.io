@@ -3,7 +3,7 @@
         "name" : "KalebStanzak.github.io",
         "description":"This is the website you're currently on! Originally a simple html page i made for class, I later modified the html to be just my resume. After a bit of work inbetween classes, this website is now what youre currently viewing. This site is built in Angular 18, and hosted on a github page. Documentation and the websites code can be found",
         "apiLink" : "https://api.github.com/repos/KalebStanzak/KalebStanzak.github.io/commits",
-        "projectLink" : "http://kalebstanzak.github.io"
+        "projectLink" : "https://github.com/KalebStanzak/KalebStanzak.github.io"
     },
     {
         "name" : "U-Fund Project: Humane Society Funding",
