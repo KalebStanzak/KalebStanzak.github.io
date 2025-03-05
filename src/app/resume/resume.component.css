@@ -5,4 +5,29 @@
 br{
     line-height: .1;
 }
-
+div.wrapper{
+    display: grid;
+    grid-template-areas: 
+    "contact1  name contact2";
+    margin: 10px;
+    font-size: 20px;
+}
+div.left{
+    grid-area: "contact1";
+    text-align: left;
+}
+div.middle{
+    grid-area: "name";
+    text-align: center;
+    font-size: 40px;
+}
+div.right{
+    grid-area: "contact2";
+    text-align: right;
+}
+hr{
+    height: 3px;
+    border: none;
+    background-color: white;
+    margin: 10px;
+}
